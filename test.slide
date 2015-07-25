@@ -1,0 +1,37 @@
+Go on Mobile
+
+GopherCon 2015
+
+Hana Kim
+Google
+
+* Caution
+
+.image gophercon-go-on-mobile/caution.png 300 _
+
+The Go Mobile project is experimental. Use this at your own risk.
+
+While we are working hard to improve it, neither Google nor the Go
+team can provide end-user support.
+
+* Background
+
+Mobile support was frequently requested
+
+Some users built their own Go binaries for Android with cgo + external linking through NDK tool chains
+
+Some Android Apps used Go even before Go 1.4
+
+- Camlistore android app (out-of-process model)
+- Goandroid+Mandala (in-process model)
+- ...
+
+* golang.org/x/mobile
+
+Goal: Bring Go to Mobile Platforms
+
+Why?
+
+- Use Go to program a complete system (server/client)
+- Write a single cross-platform Go library
+- Bring a simple language and development tooling to mobile
